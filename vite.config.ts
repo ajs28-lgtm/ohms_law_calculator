@@ -207,7 +207,6 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   base: '/ohms_law_calculator/',
-  base: '/ohms_law_calculator/',
   plugins,
   resolve: {
     alias: {
